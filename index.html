@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão html e css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#listas">Listas</a>
+            <a href="#tabelas">Tabelas</a>
+            <a href="#formularios">Formulários</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="listas">
+            <h2>LISTAS</h2>
+
+            <ol>
+                <li>PUMA</li>
+                <li>NIKE</li>
+                <li>OAKLEY</li>
+                <li>SERGIO TACCHINI</li>
+                <li>ADIDAS</li>
+            </ol>
+
+            <ul>
+                <li>FIFA</li>
+                <li>GTA V</li>
+                <li>GOOD OF WAR</li>
+                <li>THE LAST OF US</li>
+                <li>MORTAL KOMBAT</li>
+            </ul>
+        </section>
+     
+        <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>NOME DA MARCA</th>
+                  <th>PREÇO</th>
+                  <th>NOME DA PEÇA</th>
+                  <th>QUANTIDADE DISPONÍVEL</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>OAKLEY</td>
+                  <td>R$15.200</td>
+                  <td>HOLE SHOT CUBA</td>
+                  <td>TRÊS UNIDADES</td>
+                </tr>
+                <tr>
+                  <td>SERGIO TACCHINI</td>
+                  <td>260.00 USD</td>
+                  <td>TRACK JACKET- WHITE</td>
+                  <td>QUINZE UNIDADES</td>
+                </tr>
+                <tr>
+                  <td>ADIDAS</td>
+                  <td>R$2.000</td>
+                  <td>SPRING BLADE</td>
+                  <td>UMA UNIDADE</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        <section id="formularios">
+            <h2>FORMULÁRIOS</h2>
+            <div class="form-container">
+                <form>
+                  <label for="nome">Nome:</label>
+                  <input type="text" id="nome" placeholder="Nome">
+              
+                  <label for="sobrenome">Sobrenome:</label>
+                  <input type="text" id="sobrenome" placeholder="Sobrenome">
+              
+                  <label for="usuario">Nome de Usuário:</label>
+                  <input type="text" id="usuario" placeholder="Nome de Usuário">
+              
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" placeholder="Email">
+              
+                  <label for="senha">Senha:</label>
+                  <input type="password" id="senha" placeholder="Senha">
+              
+                  <label for="confirma-senha">Confirmação de Senha:</label>
+                  <input type="password" id="confirma-senha" placeholder="Confirmação de Senha">
+              
+                  <button type="submit">Registrar</button>
+                </form>
+              </div>
